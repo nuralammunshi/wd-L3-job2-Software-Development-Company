@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nexa Digital builds thoughtful websites, apps and digital experiences for ambitious businesses.">
+  <title>Nexa Digital — Digital products, thoughtfully made</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex flex-wrap gap-3 gap-md-4">
+        <a href="mailto:hello@nexadigital.com"><i class="bi bi-envelope me-2"></i>hello@nexadigital.com</a>
+        <a href="tel:+15550148200"><i class="bi bi-telephone me-2"></i>+1 (555) 014-8200</a>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <span class="topbar-time" data-current-time></span>
+        <a class="social-link" href="https://facebook.com" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="social-link" href="https://x.com" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+        <a class="social-link" href="https://youtube.com" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        <a class="top-login" href="contact.html">Login / Register</a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="brand-mark"><i class="bi bi-asterisk"></i></span>NEXA<span class="brand-light">DIGITAL</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-primary btn-sm nav-cta" href="contact.html">Let’s talk <i class="bi bi-arrow-up-right ms-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-carousel">
+      <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-slide" style="--hero-image:url('../img/hero-office.jpg')">
+            <div class="container hero-content"><p class="eyebrow text-white">DIGITAL THAT MOVES YOU</p><h1>Make your next<br><span>big thing</span> happen.</h1><p class="hero-copy">We turn ambitious ideas into useful digital products people love to use.</p><a class="btn btn-primary btn-lg" href="services.html">Explore our services <i class="bi bi-arrow-up-right ms-2"></i></a></div>
+          </div>
+          <div class="carousel-item hero-slide" style="--hero-image:url('../img/hero-team-meeting.jpg')">
+            <div class="container hero-content"><p class="eyebrow text-white">GOOD IDEAS, BUILT BETTER</p><h1>Design with purpose.<br><span>Build for people.</span></h1><p class="hero-copy">From first sketch to final launch, we make every interaction count.</p><a class="btn btn-primary btn-lg" href="projects.html">See what we make <i class="bi bi-arrow-up-right ms-2"></i></a></div>
+          </div>
+          <div class="carousel-item hero-slide" style="--hero-image:url('../img/hero-team.jpg')">
+            <div class="container hero-content"><p class="eyebrow text-white">YOUR PARTNER IN WHAT'S NEXT</p><h1>Small teams.<br><span>Big possibilities.</span></h1><p class="hero-copy">A collaborative digital studio for brands ready to move forward.</p><a class="btn btn-primary btn-lg" href="contact.html">Start a conversation <i class="bi bi-arrow-up-right ms-2"></i></a></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev" aria-label="Previous slide"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next" aria-label="Next slide"><span class="carousel-control-next-icon"></span></button>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="section-heading text-center mx-auto"><p class="eyebrow">WHAT WE DO</p><h2>Good work starts with <span class="text-accent">good thinking.</span></h2><p>We bring strategy, design and technology together to solve real business challenges.</p></div>
+        <div class="row g-4 mt-4">
+          <div class="col-md-4"><article class="service-card h-100"><div class="icon-box"><i class="bi bi-window-stack"></i></div><h3>Web development</h3><p>Fast, accessible and scalable websites and web apps shaped around your customers.</p><a href="services.html#web-development" class="text-link">Explore web development <i class="bi bi-arrow-right"></i></a></article></div>
+          <div class="col-md-4"><article class="service-card h-100"><div class="icon-box"><i class="bi bi-phone"></i></div><h3>Mobile applications</h3><p>Intuitive iOS and Android experiences that make everyday tasks feel effortless.</p><a href="services.html#mobile-apps" class="text-link">Explore mobile apps <i class="bi bi-arrow-right"></i></a></article></div>
+          <div class="col-md-4"><article class="service-card h-100"><div class="icon-box"><i class="bi bi-bezier2"></i></div><h3>Product &amp; UI/UX design</h3><p>Clear research-led product thinking and interfaces that put people first.</p><a href="services.html#product-design" class="text-link">Explore product design <i class="bi bi-arrow-right"></i></a></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space bg-soft">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4"><div class="section-heading mb-0"><p class="eyebrow">SELECTED WORK</p><h2>Made with <span class="text-accent">meaning.</span></h2></div><a class="text-link" href="projects.html">View all projects <i class="bi bi-arrow-right"></i></a></div>
+        <div class="row g-4">
+          <div class="col-md-7"><a class="project-card project-large" href="project-detail.html?project=atlas"><img src="assets/img/project-atlas.jpg" alt="Retail checkout experience on a tablet"><div class="project-overlay"><span>Digital commerce</span><h3>Atlas Market</h3></div></a></div>
+          <div class="col-md-5"><a class="project-card" href="project-detail.html?project=wellnest"><img src="assets/img/project-wellnest.jpg" alt="Healthcare professional using a digital health app"><div class="project-overlay"><span>Mobile app</span><h3>Wellnest Health</h3></div></a></div>
+          <div class="col-md-5"><a class="project-card" href="project-detail.html?project=fieldnote"><img src="assets/img/project-fieldnote.jpg" alt="Minimal stationery and notebook on a desk"><div class="project-overlay"><span>Brand &amp; web</span><h3>Fieldnote Studio</h3></div></a></div>
+          <div class="col-md-7"><a class="project-card project-wide" href="projects.html"><img src="assets/img/project-common-ground.jpg" alt="Creative team collaborating around a laptop"><div class="project-overlay"><span>Platform design</span><h3>Better teams, better work</h3></div></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="section-heading text-center mx-auto"><p class="eyebrow">KIND WORDS</p><h2>Better together, <span class="text-accent">always.</span></h2></div>
+        <div class="row g-4 mt-3">
+          <div class="col-md-6"><article class="testimonial-card h-100"><div class="stars">★★★★★</div><blockquote>“Nexa helped us take a complex idea and turn it into a product our customers genuinely enjoy using. The team made the whole process feel clear and collaborative.”</blockquote><div class="testimonial-person"><div class="avatar">JM</div><div><strong>Jamie Morgan</strong><span>CEO, Atlas Market</span></div></div></article></div>
+          <div class="col-md-6"><article class="testimonial-card h-100"><div class="stars">★★★★★</div><blockquote>“They listened, challenged our assumptions in the right ways, and delivered a thoughtful experience that made a real difference to our members.”</blockquote><div class="testimonial-person"><div class="avatar avatar-lilac">SK</div><div><strong>Samira Khan</strong><span>Product Director, Wellnest</span></div></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-section"><div class="container"><p class="eyebrow text-center">TOOLS WE TRUST, TECHNOLOGIES WE LOVE</p><div class="tech-logos"><span><i class="bi bi-atom"></i> React</span><span><i class="bi bi-layers"></i> Laravel</span><span><i class="bi bi-node-plus"></i> Node.js</span><span><i class="bi bi-bootstrap"></i> Bootstrap</span><span><i class="bi bi-database"></i> PostgreSQL</span><span><i class="bi bi-cloud"></i> AWS</span></div></div></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><div class="row g-5">
+      <div class="col-lg-4"><a class="navbar-brand footer-brand" href="index.html"><span class="brand-mark"><i class="bi bi-asterisk"></i></span>NEXA<span class="brand-light">DIGITAL</span></a><p class="footer-about">An independent digital studio building products, platforms and experiences for a better-connected world.</p><div class="footer-social"><a href="https://facebook.com" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="https://x.com" aria-label="X"><i class="bi bi-twitter-x"></i></a><a href="https://youtube.com" aria-label="YouTube"><i class="bi bi-youtube"></i></a><a href="https://linkedin.com" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div></div>
+      <div class="col-6 col-lg-2"><h4>Explore</h4><a href="services.html">Services</a><a href="projects.html">Our work</a><a href="about.html">About us</a><a href="contact.html">Contact</a></div>
+      <div class="col-6 col-lg-2"><h4>Get in touch</h4><a href="mailto:hello@nexadigital.com">Email us</a><a href="tel:+15550148200">Call our studio</a><a href="about.html#careers">Careers</a></div>
+      <div class="col-lg-4"><h4>Good things, occasionally.</h4><p>Fresh thinking and studio news, delivered thoughtfully.</p><form class="newsletter-form" data-newsletter-form><label class="visually-hidden" for="newsletterEmail">Email address</label><input id="newsletterEmail" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe"><i class="bi bi-arrow-right"></i></button></form><p class="newsletter-note" data-newsletter-message>By subscribing, you agree to receive our occasional updates.</p></div>
+    </div></div>
+    <div class="footer-bottom"><div class="container d-flex flex-wrap justify-content-between gap-2"><span>© <span data-year></span> Nexa Digital. All rights reserved.</span><span>Made with intention <i class="bi bi-heart-fill text-accent"></i></span></div></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
